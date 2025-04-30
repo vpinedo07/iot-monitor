@@ -39,6 +39,6 @@ function fetchDeviceData() {
       });
   }
   
-  setInterval(fetchDeviceData, 20000);
+  setInterval(fetchDeviceData, 2000);
   document.addEventListener("DOMContentLoaded", fetchDeviceData);
   
