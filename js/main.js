@@ -1,5 +1,5 @@
 function fetchDeviceData() {
-    fetch("http://18.206.163.32/api/devices")
+    fetch("http://54.157.232.27/api/devices")
       .then(response => {
         if (!response.ok) {
           throw new Error("No se pudo obtener la información");
